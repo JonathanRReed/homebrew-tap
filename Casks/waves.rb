@@ -22,7 +22,7 @@ cask "waves" do
   # (matches LSMinimumSystemVersion). Homebrew's depends_on only understands
   # major versions, so gate on Sonoma here; the app itself refuses 14.0/14.1
   # with its unsupported-OS path.
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Waves.app"
 
