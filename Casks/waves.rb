@@ -4,13 +4,13 @@
 # checksum placeholder in a generated dist/waves.rb, and publishes that generated
 # file as a release artifact. It does not mutate this repository template.
 cask "waves" do
-  version "1.1.0"
-  sha256 "221dd42edad3ffefcfc4320c9653a6fe8b6a9a4705f63c6bca27187607cc5bf6"
+  version "1.2.0"
+  sha256 "b982dd618b1257a9889893fed5c2e81ff40d4e592fc4a45f5c4ccf470b27128a"
 
   url "https://github.com/JonathanRReed/Waves/releases/download/v#{version}/Waves.dmg",
       verified: "github.com/JonathanRReed/Waves/"
   name "Waves"
-  desc "Native macOS per-app audio mixer"
+  desc "Native per-app audio mixer"
   homepage "https://github.com/JonathanRReed/Waves"
 
   livecheck do
