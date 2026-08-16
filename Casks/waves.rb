@@ -5,7 +5,7 @@
 # file as a release artifact. It does not mutate this repository template.
 cask "waves" do
   version "1.6.0"
-  sha256 "c12609080a69ca72abd57aeb3a4531488c29a3be7e1635dcffa12ddede79cf12"
+  sha256 "a0fb52f5c9783bed938a6bc0683f6bdf69a5f527dcd20da5dd35958362a93b4b"
 
   url "https://github.com/JonathanRReed/Waves/releases/download/v#{version}/Waves.dmg",
       verified: "github.com/JonathanRReed/Waves/"
