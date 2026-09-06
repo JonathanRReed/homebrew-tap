@@ -1,22 +1,16 @@
-# JonathanRReed's Homebrew Tap
+# JonathanRReed's Homebrew tap
 
-Homebrew casks for my apps.
+Homebrew casks for my apps. Currently includes [Waves](https://github.com/JonathanRReed/Waves), a macOS per-app audio mixer.
 
-## Usage
-
-```bash
-brew tap jonathanrreed/tap
-brew install --cask waves
-```
-
-Or in one line:
+## Install Waves
 
 ```bash
 brew install --cask jonathanrreed/tap/waves
 ```
 
-## Casks
+Or add the tap first:
 
-| Cask | Description |
-| --- | --- |
-| `waves` | [Waves](https://github.com/JonathanRReed/Waves) — native macOS per-app audio mixer |
+```bash
+brew tap jonathanrreed/tap
+brew install --cask waves
+```
