@@ -4,8 +4,8 @@
 # checksum placeholder in a generated dist/waves.rb, and publishes that generated
 # file as a release artifact. It does not mutate this repository template.
 cask "waves" do
-  version "1.7.2"
-  sha256 "bff2b909aa1e4ca81f8e8ab678468ec4cf0bead013cf3403c07942aad924eb77"
+  version "1.7.3"
+  sha256 "4c5b07a65bf312e53f1ce33ff222905f9cad098f5ed7cf0a7b6467bcec3b7b52"
 
   url "https://github.com/JonathanRReed/Waves/releases/download/v#{version}/Waves.dmg",
       verified: "github.com/JonathanRReed/Waves/"
