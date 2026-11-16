@@ -4,8 +4,8 @@
 # checksum placeholder in a generated dist/waves.rb, and publishes that generated
 # file as a release artifact. It does not mutate this repository template.
 cask "waves" do
-  version "1.7.4"
-  sha256 "ef4ef404b16a94b0d20a57bf32217dd3915913981c355263cbf7b4b149baa9ce"
+  version "1.8.0"
+  sha256 "e04411e445bf63801036f4a7acff34eab25dcb2462b4e7b1e5f412ae2d97cd5f"
 
   url "https://github.com/JonathanRReed/Waves/releases/download/v#{version}/Waves.dmg",
       verified: "github.com/JonathanRReed/Waves/"
@@ -17,6 +17,9 @@ cask "waves" do
     url :url
     strategy :github_latest
   end
+
+  # Waves updates itself with Sparkle.
+  auto_updates true
 
   # Per-app routing requires Core Audio process taps — macOS 14.2 is the floor
   # (matches LSMinimumSystemVersion). Homebrew's depends_on only understands
